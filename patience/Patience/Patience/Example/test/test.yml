@@ -1,0 +1,20 @@
+setup:
+    program: my_test.exe
+    copy_files:
+        src/*.png:
+          - result/
+
+tests:
+    - test: my_basic_test
+      description: A very basic test which copies a file
+      level: 1
+      arguments: --copy -i src/lorem_ipsum.txt -o result/output.txt
+      output:
+        - output.txt
+
+    - test: my_other_test
+      description: A second test which moves a file
+      level: 5
+      arguments: --move -i result/giraffe.png -o result/output.png
+      output:
+        - output.png

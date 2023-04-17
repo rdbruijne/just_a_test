@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Patience": {
+      "commandName": "Project",
+      "commandLineArgs": "--help --test $(SolutionDir)..\\dummy",
+      "workingDirectory": "$(SolutionDir)Patience\\bin"
+    }
+  }
+}
