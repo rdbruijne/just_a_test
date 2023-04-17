@@ -1,0 +1,17 @@
+setup:
+    program: ../../bin/outputFiles.exe
+
+tests:
+  - test: correct_output
+    description: The output will match the reference file.
+    level: 1
+    arguments: result/correct.txt
+    output:
+      - result/correct.txt
+
+  - test: wrong_output
+    description: The output will not match the reference file.
+    level: 1
+    arguments: result/wrong.txt
+    output:
+      - result/wrong.txt

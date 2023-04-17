@@ -1,0 +1,5 @@
+../../../bin/dumpArgs.exe first 1234 "An argument with spaces"
+0: F:\just_a_test\patience\dummy\bin\dumpArgs.exe
+1: first
+2: 1234
+3: An argument with spaces

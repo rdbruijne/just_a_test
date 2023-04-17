@@ -1,0 +1,14 @@
+setup:
+    program: ../../../bin/addNumbers.exe
+
+tests:
+  - test: add_numbers
+    description: Add several arguments, and show the result.
+    level: 1
+    arguments: 42 1337
+
+  - test: add_negative_numbers
+    description: Start with a negative number to add, to see if yaml doesn't parse it as a list.
+    level: 1
+    retries: 100
+    arguments: -2 0

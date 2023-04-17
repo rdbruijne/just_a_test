@@ -1,0 +1,16 @@
+setup:
+    program: ../../bin/longTest.exe
+
+tests:
+  - test: long_test
+    description: Test will run for 500ms.
+    level: 10
+    timeout: 1000
+    arguments: 500
+
+  - test: too_long_test
+    description: Test will run for 5000ms, triggering a timeout.
+    level: 10
+    timeout: 1000
+    arguments: 5000
+

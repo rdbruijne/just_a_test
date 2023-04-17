@@ -1,0 +1,3 @@
+sub_tests:
+  - addNumbers/test
+  - dumpArgs/test

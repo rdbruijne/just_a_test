@@ -1,0 +1,8 @@
+setup:
+    program: ../../bin/brokenConfig.exe
+
+tests:
+  - test: broken_config
+    description: Test configuration contains invalid keys.
+    level: 10
+    illegalKey: -5

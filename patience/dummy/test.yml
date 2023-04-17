@@ -1,0 +1,7 @@
+sub_tests:
+  - simpleArgs
+  #- brokenConfig/test
+  - failingTest/test
+  - longTest/test
+  - outputFiles/test
+  #- thisDirectoryDoesNotExits/test

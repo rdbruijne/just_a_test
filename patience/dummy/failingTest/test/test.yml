@@ -1,0 +1,8 @@
+setup:
+    program: ../../bin/failingTest.exe
+
+tests:
+  - test: failing_test
+    description: Test that returns a non-zero exit code.
+    level: 10
+

@@ -1,0 +1,12 @@
+setup:
+    program: ../../../bin/dumpArgs.exe
+
+tests:
+  - test: no_args
+    description: No arguments to print.
+    level: 1
+
+  - test: some_args
+    description: Print several different arguments.
+    level: 1
+    arguments: first 1234 "An argument with spaces"

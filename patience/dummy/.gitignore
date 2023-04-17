@@ -1,0 +1,7 @@
+# code compile
+build/
+bin/
+
+# test outputs
+**/result/
+*.log
